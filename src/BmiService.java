@@ -1,7 +1,7 @@
 public class BmiService {
-    public double calculate (double weight_kilograms, double height_meters) {
+    public double calculate (double weight, double height) {
         double index;
-        index = weight_kilograms / (height_meters * height_meters);
+        index = weight/ (height* height);
         return index;
     }
 }
